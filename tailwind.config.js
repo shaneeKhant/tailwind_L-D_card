@@ -4,7 +4,8 @@ module.exports = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      'Playfair': ['Playfair Display', 'serif']
+      'Playfair': ['Playfair Display', 'serif'],
+      'Inter': ['Inter', 'sans-serif']
     },
     extend: {
       colors: {
@@ -55,6 +56,17 @@ module.exports = {
           900: '#43302b',
         },
 
+        Text: {
+          100: "#fcfcfc",
+          200: "#fafafa",
+          300: "#f7f7f7",
+          400: "#f5f5f5",
+          500: "#f2f2f2",
+          600: "#c2c2c2",
+          700: "#919191",
+          800: "#616161",
+          900: "#303030"
+        },
 
       }
     },
